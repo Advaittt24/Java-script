@@ -1,9 +1,9 @@
-function add (a,b){
-    c= a+b
-    return c
+function add (){
+    let a = parseInt(prompt("Enter 1st number : - "))
+    let b = parseInt(prompt("Enter 2nd number : - "))
+    let sum =(a+b);
 }
-c1=add(4.,5)
-console.log(c1)
+console.log("Total is = ",sum)
 function sub (d,f){
     g= d-f
     return g
