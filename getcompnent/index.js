@@ -1,4 +1,7 @@
 let mydate = new Date()
 console.log(mydate.getDate())
+console.log(mydate.getHours())
 console.log(mydate.getMinutes())
 console.log(mydate.getMilliseconds())
+console.log(mydate.getUTCDate())
+console.log(mydate.getMonth())
