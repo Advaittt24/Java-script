@@ -15,3 +15,20 @@ for (let i = 1; i <= 100; i++) {
         console.log(i);
     }
 }
+
+// let prime_number = [];
+
+// for (let i = 2; i <= 100; i++) {
+//     let prime = true;
+//     for (let j = 2; j <= i; j++) {
+//         if (j < i && i % j == 0) {
+//             prime = false;
+//             break;
+//         }
+//     }
+//     if (prime) {
+//         prime_number.push(i);
+//     }
+// }
+
+// console.log(prime_number);
